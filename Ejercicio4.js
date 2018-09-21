@@ -1,4 +1,4 @@
-function decimalToBinary (n = prompt('Ingrese el numero a convertir: ')) {
+function decimalToBinary (n = prompt('Ingrese el numero que desea convertir: ')) {
     var ans = [];
     while(n >= 2) {
         ans.push(n % 2);

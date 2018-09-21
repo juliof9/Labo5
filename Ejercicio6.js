@@ -1,8 +1,8 @@
-function absolute(n = prompt("Ingrese un numero: ")) {
+function absolute(a = prompt("Ingrese un numero: ")) {
     if(n < 0) {
-        console.log('El valor absoluto de ' + n + ' es: ' + n*(-1));
+        console.log('El valor absoluto de ' + a + ' es: ' + a*(-1));
         return;
     }
-    console.log('El valor absoluto de ' + n + ' es: ' + n);
+    console.log('El valor absoluto de ' + a + ' es: ' + a);
     return;
 }

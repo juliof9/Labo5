@@ -1,8 +1,8 @@
-function palindrome (str = prompt('Ingrese una palabra: ')) {
-    if(str.split("").reverse().join("") == str) {
-        console.log(str + ' es una palabra palindrome');
+function palindrome (s = prompt('Ingrese una palabra: ')) {
+    if(s.split("").reverse().join("") == s) {
+        console.log(s + ' es una palabra palindrome');
         return;
     }
-    console.log(str + ' no es una palabra palindrome');
+    console.log(s + ' no es una palabra palindrome');
     return;
 }
