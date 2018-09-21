@@ -1,11 +1,12 @@
-function insertionSort (arr) {
-    for(var i = 0; i < arr.length; i++) {
-        let key = arr[i];
-        for(var j = i-1; j > -1 && arr[j] > key; j--) {
-            arr[j+1] = arr[j];
+function insertion(arrg) {                                            
+    for(j = 1; j < arrg.length; j++) {
+        key = arrg[j]
+        i = j - 1
+        while (i >= 0 && arrg[i] > key) {
+            arrg[i+1] = arrg[i]
+            i--
         }
-        arr[j+1] = key;
+        arrg[i+1] = key
     }
-    console.log(arr);
-    return;
+    return arrg
 }
